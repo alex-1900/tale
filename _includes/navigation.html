@@ -4,6 +4,7 @@
       <h2 class="nav-title">{{ site.title }}</h2>
     </a>
     <ul>
+      <li><a href="{{ '/tags' | prepend: site.baseurl }}">标签</a></li>
       {% for nav in site.navigations %}
         <li><a href="{{ nav.path | prepend: site.baseurl }}">{{ nav.text }}</a></li>
       {% endfor %}
