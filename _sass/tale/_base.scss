@@ -3,6 +3,11 @@
   line-height: 1.5;
 }
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 html,
 body {
   color: $default-color;
@@ -12,7 +17,6 @@ body {
 
 html {
   font-family: $serif-primary;
-  -webkit-font-smoothing: antialiased;
   font-size: 14px;
   overflow-y: scroll;
 
